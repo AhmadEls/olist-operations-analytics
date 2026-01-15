@@ -23,5 +23,10 @@ This analysis is designed for operations and logistic leaders responsible for de
 
 
 
+## Success Criteria
 
-
+- Clearly defined SLA and delivery performance metrics  
+- Ability to identify where delays occur (seller, region, order volume)  
+- Insights that help operations teams prioritize actions to improve on-time delivery  
+- A concise, executive-level dashboard focused on decision-making
+    
