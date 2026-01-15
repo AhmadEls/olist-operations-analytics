@@ -14,4 +14,6 @@ Orders delivered after the estimated date are considered **late**.
 
 The SLA helps operations teams understand where delivery delays occur and which orders, sellers, or regions should be prioritized to improve on-time delivery performance.
 
+## Objective
 
+The objective of this analysis is to provide operations leaders with clear, actionable insights into delivery performance, highlighting where delays occur, their business impact, and which operational levers can most effectively improve on-time delivery.
