@@ -17,3 +17,11 @@ The SLA helps operations teams understand where delivery delays occur and which 
 ## Objective
 
 The objective of this analysis is to provide operations leaders with clear, actionable insights into delivery performance, highlighting where delays occur, their business impact, and which operational levers can most effectively improve on-time delivery.
+
+## Audience
+This analysis is designed for operations and logistic leaders responsible for delivery performance and SLA compliance.
+
+
+
+
+
