@@ -1,0 +1,5 @@
+# Ignore raw datasets
+data/raw/**
+
+# Ignore DB Browser project files
+*.sqbpro
