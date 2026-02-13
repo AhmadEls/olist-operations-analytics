@@ -55,6 +55,31 @@ This separation of raw, staging, and metric layers ensures:
 
 ---
 
+## Key Insights (Preliminary)
+
+Based on the engineered SLA metrics:
+
+- Approximately 91–92% of deliveries meet the promised delivery date.
+- Nearly 8% of deliveries are late, indicating operational friction in fulfillment or logistics.
+- Late deliveries average around 9–10 days beyond the estimated delivery date, suggesting that delays are not minor deviations but significant SLA breaches.
+- Monitoring seller-level and regional performance is critical to identifying systemic vs localized issues.
+
+These findings highlight the importance of SLA tracking in maintaining customer satisfaction and operational efficiency.
+
+---
+
+## Assumptions & Limitations
+
+- SLA performance is calculated only for orders marked as "delivered".
+- Late severity (average days late) considers only delayed deliveries.
+- Estimated delivery date is treated as the official SLA commitment.
+- This analysis does not account for shipment carrier performance, warehouse processing delays, or customer availability factors.
+- Data reflects historical transactional records and may not represent real-time operational performance.
+
+These constraints should be considered when interpreting SLA metrics.
+
+---
+
 ## Tools & Technologies
 
 ### Data Storage & Modeling
