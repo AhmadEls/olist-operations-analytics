@@ -1,0 +1,59 @@
+# Data Model Explanation
+
+## Overview
+
+The dashboard is built using a layered modeling approach inspired by dimensional modeling principles.
+
+The architecture separates:
+
+- Raw transactional tables
+- Staging (cleaned) tables
+- Aggregated metric tables
+- Dimension tables for reporting
+
+This design improves clarity, performance, and metric consistency.
+
+---
+
+## Reporting Layer Structure
+
+### Metric Tables (Aggregated)
+
+- m_exec_kpis
+- m_monthly_sla
+- m_region_sla
+- m_seller_sla
+- m_customer_state_sla
+
+Each metric table is pre-aggregated at a specific grain to avoid ambiguous filtering inside Power BI.
+
+---
+
+## Dimension Tables
+
+- dim_customer
+- dim_seller
+
+Dimensions are used for filtering and slicing, not metric computation.
+
+---
+
+## Modeling Decisions
+
+- Metric tables are intentionally not connected to each other.
+- Relationships are kept minimal and single-directional.
+- Aggregations are performed in SQL instead of DAX for performance and clarity.
+- Each table has a clearly defined grain.
+
+---
+
+## Why This Matters
+
+This approach ensures:
+
+- No circular dependencies
+- No ambiguous filter paths
+- Predictable KPI calculations
+- Clean executive reporting
+
+The model reflects BI developer best practices rather than ad-hoc dashboard construction.
